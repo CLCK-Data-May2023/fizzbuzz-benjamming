@@ -8,7 +8,7 @@ def fuzznumber(number):
     elif not number % 5:
         return "Buzz"
     else:
-        return number
+        return str(number)
     
 def main():
     for n in range(1, 101):
